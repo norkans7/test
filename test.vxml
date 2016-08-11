@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<vxml version = "2.1" >
-   <form>
-      <block>
-         <prompt>
-            Hello.
-         </prompt>
-         <audio src="http://www.freesfx.co.uk/rx2/mp3s/9/10778_1380921485.mp3"/>
-         <prompt xml:lang="es-mx-female">
-            Hola.
-         </prompt>
-      </block>
-   </form>
-</vxml>
+<?xml version="1.0" encoding="UTF-8"?><vxml><block><prompt>Please make a recording at the beep followed by the pound sign.</prompt></block><record name="59004911-ace6-4355-96de-f3c536ab7b62beep="true"finalsilence="4000ms" dtmfterm="true" type="audio/x-wav"><filled><submit next="https://56a3a001.ngrok.io/handle/14132/ method="post" /></filled></record></vxml>
